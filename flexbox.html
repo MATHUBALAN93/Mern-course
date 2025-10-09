@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .box{
+            background-color: rgb(49, 49, 221);
+        }
+        h3,h1,p{
+            color: white;
+        }
+        .p1{
+            background-color: #1f2937;
+            padding-bottom: 10%;
+        }
+        
+        h3{
+            display: inline;
+        }
+        .space{
+            margin-left: 70%;
+        }
+        .s{
+            margin-left: 5%;
+        }
+        .b1{
+        
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: bold;
+            color: white;
+            background-color: #0f54b4;
+            
+        }
+        .hd{
+            display: flex;
+            margin-left: 7%;
+        }
+        .img{
+            border: 2px solid black;
+            padding: 10%;
+            padding-right: 30%;
+            background-color: gray;
+        }
+        
+       .card{
+       
+        
+        border:2px solid rgb(7, 90, 206);
+        border-radius: 5%;
+        width: 40%;
+        height: 200px;
+        padding: 50px;
+
+       }
+       .cont{
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-around;
+         
+       }
+       .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .ptag{
+        color: black;
+       }
+       .author{
+        background-color: grey;
+        
+       }
+       .box{
+        display: flex;
+       }
+       .foo{
+        background-color: rgb(36, 182, 255);
+        padding: 5px;
+        
+       }
+       .line{
+        justify-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="p1">
+
+        <div class="nav"> 
+            <header>
+                <h3>Herader Logo</h3>
+                <h3 class="space">link 1</h3>
+                <h3 class="s">link 2</h3>
+                <h3 class="s">link 3</h3>
+            </header>
+        </div>
+        <br>
+        <div class ="hd">
+            <div class="str">
+
+                <h1>This website is awesome</h1>
+                <p>This website has some subtexxt that goes Here
+                    under the main title. It's a smaller font and the color is lower contrast
+                </p>
+                <button class="b1">Sign up</button>
+            </div>
+
+            <div class="img">
+            </div>
+        </div>
+            
+            
+    </div>
+    <h1 style="color: black; text-align: center;">Some random information</h1>
+    <div class="cont">
+
+
+        <div class="cards">
+            <div class="card"></div>
+            
+            <p class="ptag">this is some subtext under an illustration image</p>
+        </div>
+        <div class="cards">
+            <div class="card"></div>
+            <p class="ptag">this is some subtext under an illustration image</p>
+            
+        </div>
+        <div class="cards">
+            <div class="card"></div>
+            <p class="ptag">this is some subtext under an illustration image</p>
+            
+        </div>
+        <div class="cards">
+            <div class="card"></div>
+            <p class="ptag">this is some subtext under an illustration image</p>
+            
+        </div>
+        
+    </div>
+    <br><br><br>
+    
+    <div class="author" style="height: 200px;">
+        <div style="padding-top:50px ; width: 50%; margin-left: 400px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed soluta voluptates ipsa tenetur perspiciatis suscipit eum quos doloribus rem iure, rerum placeat eius porro, corrupti, nisi aut voluptate similique eaque?</div>
+        <div style="margin-left: 900px;"><p style="color: black; ">-By MASTER</p></div>
+        
+        
+        
+    </div>
+    <br><br><br>
+    <div class="box" style="width: 60%; margin-left: 400px;">
+        <div>
+            <h4 style="color: white;">call to action it's time!</h4>
+            <p class="ptag" style="color: white;">Sign up for our product by clicking that buttton right over there</p>
+        </div>
+        <div  >
+
+            <button class="signup" style="border: 2px solid white;border-style: none; background-color: darkblue; color: white; margin-top: 50px; margin-left: 300px;" >Sign up</button>
+        </div>
+
+    </div>
+    <br><br><br><br>
+    \
+    <footer>
+        <div class="foo">
+            <div class="line">
+
+                <h5>Copyright @ Master project </h5>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
